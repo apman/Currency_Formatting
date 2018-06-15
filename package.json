@@ -6,6 +6,7 @@
     "@shopify/polaris": "^2.2.0",
     "i18n-locales": "^0.0.2",
     "react": "^16.4.1",
+    "react-autobind": "^1.0.6",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
