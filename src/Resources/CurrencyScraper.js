@@ -14,7 +14,9 @@ class CurrencyScraper extends Component {
             const elements = xmlDoc.getElementsByTagName("CcyNtry");
             let currencies = [];
             for (let i = 0; i < elements.length; i++) {
-                if (elements[i].getElementsByTagName("Ccy")[0]) {
+                const isCurrency = elements[i].getElementsByTagName("Ccy")[0] 
+                    && elements[i].getElementsByTagName("CtryNm")[0].innerHTML.indexOf("ZZ") === -1;
+                if (isCurrency) {
                     const currencyCode = elements[i].getElementsByTagName("Ccy")[0].childNodes[0].nodeValue;
                     const existingEntry = currencies.find(currency => currency.code === currencyCode);
                     if (existingEntry) {
