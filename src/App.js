@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import CurrencyScraper from './Resources/CurrencyScraper';
+import locales from '../node_modules/i18n-locales';
 
 class App extends Component {
   render() {
@@ -17,6 +18,8 @@ class App extends Component {
   getCurrencies(currencyList) {
     console.log('currencyList');
     console.log(currencyList);
+
+    console.log(JSON.stringify(locales, null, 2));
   }
 }
 
