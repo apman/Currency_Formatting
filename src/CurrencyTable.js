@@ -1,41 +1,56 @@
 import React, { Component } from 'react';
 import {Card, DataTable, Link, Tooltip} from '@shopify/polaris';
+import autoBind from 'react-autobind';
+
 
 class CurrencyTable extends Component {
+  constructor () {
+    super();
+    autoBind(this);
+
+    this.state = {
+      showColumns: [10, 15, 109, 355]  // TODO:   set dynamically ...
+    }
   
-    render() {
-        const rows = [
-        [<Tooltip content={JSON.stringify(this.props.currencies[0].countries, null, 1)}><Link>{this.props.currencies[0].code} - {this.props.currencies[0].name}</Link></Tooltip>, new Intl.NumberFormat(this.props.locales[0], {style: 'currency', currency: this.props.currencies[0].code}).format(9.99), 124689, 140, '$122,500.00'],
-        [<Tooltip content={JSON.stringify(this.props.currencies[1].countries, null, 1)}><Link>{this.props.currencies[1].code} - {this.props.currencies[1].name}</Link></Tooltip>, new Intl.NumberFormat(this.props.locales[0], {style: 'currency', currency: this.props.currencies[1].code}).format(9.99), 124689, 140, '$122,500.00'],
-        [<Tooltip content={JSON.stringify(this.props.currencies[2].countries, null, 1)}><Link>{this.props.currencies[2].code} - {this.props.currencies[2].name}</Link></Tooltip>, '$875.00', 124689, 140, '$122,500.00'],
-        [<Tooltip content={JSON.stringify(this.props.currencies[3].countries, null, 1)}><Link>{this.props.currencies[3].code} - {this.props.currencies[3].name}</Link></Tooltip>, '$875.00', 124689, 140, '$122,500.00'],
-      ];
-      const columnContentTypes = [
-        'text',
-        'numeric',
-        'numeric',
-        'numeric',
-        'numeric',
-      ];
+  }
+
+  currencyRows() {
+    const {currencies} = this.props;
+    const rows = currencies.map(this.currencyRow);
+    return rows;
+  }
+
+  currencyRow(currency) {
+    const {locales} = this.props;
+    const rowHeading = <Tooltip content={JSON.stringify(currency.countries, null, 1)}><Link>{currency.code}<br />{currency.name}</Link></Tooltip>
+    const formattedValues = locales.map(locale => new Intl.NumberFormat(locale, {style: 'currency', currency: currency.code}).format(9.99));
+    return [rowHeading].concat(formattedValues);
+    //  ???  would it be preferable to use a for loop to push individual formatted values onto [rowHeading] to avoid
+    //        the reshuffle ?
+  }
+
+  localeHeadings() {
+    const {locales} = this.props;
+    return ['Currency'].concat(locales);
+  }
   
-      const headings = [
-        'Currencies/Locales',
-        this.props.locales[0],
-        this.props.locales[1],
-        this.props.locales[2],
-        this.props.locales[3],
-      ];
-  
-      return (
-        <Card>
-          <DataTable
-            columnContentTypes={columnContentTypes}
-            headings={headings}
-            rows={rows}
-            footerContent={`Showing ${rows.length} of ${rows.length} results`}
-          />
-        </Card>
-      );
+  render() {
+    const {currencies, locales} = this.props;
+      const rows = this.currencyRows(); 
+    const columnContentTypes = ['text'].concat(Array(this.state.showColumns.length).fill('numeric'));
+
+    const headings = this.localeHeadings();
+
+    return (
+      <Card>
+        <DataTable
+          columnContentTypes={columnContentTypes}
+          headings={headings}
+          rows={rows}
+          footerContent={`Showing ${rows.length} of ${currencies.length} currencies, and ${headings.length - 1} of ${locales.length} locales`}
+        />
+      </Card>
+    );
   }
 
 }

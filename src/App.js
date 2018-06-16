@@ -6,37 +6,34 @@ import locales from '../node_modules/i18n-locales';
 import autoBind from 'react-autobind';
 
 class App extends Component {
-    constructor () {
-      super();
-      autoBind(this);
+  constructor () {
+    super();
+    autoBind(this);
 
-      this.state = {
-        currencies: [],
-        locales: locales,
-      }
+    this.state = {
+      currencies: [],
+      locales: locales,
     }
+  }
 
-    async componentDidMount() {
-      loadCurrencies(this.getCurrencies);
-    }
-  
-    render() {
-      const currencyTable = (this.state.currencies.length !== 0) ? <CurrencyTable currencies={this.state.currencies} locales={locales} /> : <div>Just a sec ...</div>;
-      return (
-        <AppProvider>
-          <Page>
-            {currencyTable}
-          </Page>
-        </AppProvider>
-      );
-}
+  async componentDidMount() {
+    loadCurrencies(this.getCurrencies);
+  }
 
-    getCurrencies(currencyList) {
-      this.setState({currencies: currencyList});
-      console.log('currencyList');
-    }
-  
-  
+  render() {
+    const currencyTable = (this.state.currencies.length !== 0) ? <CurrencyTable currencies={this.state.currencies} locales={locales} /> : <div>Just a sec ...</div>;
+    return (
+      <AppProvider>
+        <Page>
+          {currencyTable}
+        </Page>
+      </AppProvider>
+    );
+  }
+
+  getCurrencies(currencyList) {
+    this.setState({currencies: currencyList});
+  }
 }
 
 export default App;
