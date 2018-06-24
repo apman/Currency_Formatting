@@ -3,7 +3,6 @@ export default function loadCurrencies(handleResult) {
   fetch('./list_one.xml')
   .then(response => response.text())
   .then(str => {
-    // console.log(str);
     return (new DOMParser()).parseFromString(str, "text/xml")
   })
   .then(xmlDoc => {
@@ -27,6 +26,7 @@ export default function loadCurrencies(handleResult) {
         }
       }
     } 
+    currencies.sort((a, b) => (a.code < b.code) ? -1 : 1);
     console.log('%cDebug: %o %s', 'color: green', currencies[0], 'currencies[0]');      // TEMP ..
     handleResult(currencies);
     // return currencies;
