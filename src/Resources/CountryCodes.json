@@ -1,0 +1,1486 @@
+{
+  "Countries": {
+    "AD": {
+      "flag": "AND",
+      "file": "andorra.htm",
+      "name": "Andorra",
+      "code": "AD"
+    },
+    "AE": {
+      "flag": "ARE",
+      "file": "arab_emirates.htm",
+      "name": "United Arab Emirates",
+      "code": "AE"
+    },
+    "AF": {
+      "flag": "AFG",
+      "file": "afghanistan.htm",
+      "name": "Afghanistan",
+      "code": "AF"
+    },
+    "AG": {
+      "flag": "ATG",
+      "file": "antigua_barbuda.htm",
+      "name": "Antigua and Barbuda",
+      "code": "AG"
+    },
+    "AI": {
+      "flag": "AIA",
+      "file": "anguilla.htm",
+      "name": "Anguilla",
+      "code": "AI"
+    },
+    "AL": {
+      "flag": "ALB",
+      "file": "albania.htm",
+      "name": "Albania",
+      "code": "AL"
+    },
+    "AM": {
+      "flag": "ARM",
+      "file": "armenia.htm",
+      "name": "Armenia",
+      "code": "AM"
+    },
+    "AN": {
+      "flag": "ANT",
+      "file": "netherlands_antilles.htm",
+      "name": "Netherlands Antilles",
+      "code": "AN"
+    },
+    "AO": {
+      "flag": "AGO",
+      "file": "angola.htm",
+      "name": "Angola",
+      "code": "AO"
+    },
+    "AQ": {
+      "flag": "",
+      "file": "",
+      "name": "Antarctica",
+      "code": "AQ"
+    },
+    "AR": {
+      "flag": "ARG",
+      "file": "argentina.htm",
+      "name": "Argentina",
+      "code": "AR"
+    },
+    "AS": {
+      "flag": "ASM",
+      "file": "american_samoa.htm",
+      "name": "American Samoa",
+      "code": "AS"
+    },
+    "AT": {
+      "flag": "AUT",
+      "file": "austria.htm",
+      "name": "Austria",
+      "code": "AT"
+    },
+    "AU": {
+      "flag": "AUS",
+      "file": "australia.htm",
+      "name": "Australia",
+      "code": "AU"
+    },
+    "AW": {
+      "flag": "ABW",
+      "file": "aruba.htm",
+      "name": "Aruba",
+      "code": "AW"
+    },
+    "AX": {
+      "flag": "ALA",
+      "file": "",
+      "name": "Aland Islands",
+      "code": "AX"
+    },
+    "AZ": {
+      "flag": "AZE",
+      "file": "azerbaijan.htm",
+      "name": "Azerbaijan",
+      "code": "AZ"
+    },
+    "BA": {
+      "flag": "BIH",
+      "file": "bosnia_herzegovina.htm",
+      "name": "Bosnia and Herzegovina",
+      "code": "BA"
+    },
+    "BB": {
+      "flag": "BRB",
+      "file": "barbados.htm",
+      "name": "Barbados",
+      "code": "BB"
+    },
+    "BD": {
+      "flag": "BGD",
+      "file": "bangladesh.htm",
+      "name": "Bangladesh",
+      "code": "BD"
+    },
+    "BE": {
+      "flag": "BEL",
+      "file": "belgium.htm",
+      "name": "Belgium",
+      "code": "BE"
+    },
+    "BF": {
+      "flag": "BFA",
+      "file": "burkina_faso.htm",
+      "name": "Burkina Faso",
+      "code": "BF"
+    },
+    "BG": {
+      "flag": "BGR",
+      "file": "bulgaria.htm",
+      "name": "Bulgaria",
+      "code": "BG"
+    },
+    "BH": {
+      "flag": "BHR",
+      "file": "bahrain.htm",
+      "name": "Bahrain",
+      "code": "BH"
+    },
+    "BI": {
+      "flag": "BDI",
+      "file": "burundi.htm",
+      "name": "Burundi",
+      "code": "BI"
+    },
+    "BJ": {
+      "flag": "BEN",
+      "file": "benin.htm",
+      "name": "Benin",
+      "code": "BJ"
+    },
+    "BL": {
+      "flag": "BLM",
+      "file": "",
+      "name": "Saint-Barthélemy",
+      "code": "BL"
+    },
+    "BM": {
+      "flag": "BMU",
+      "file": "bermuda.htm",
+      "name": "Bermuda",
+      "code": "BM"
+    },
+    "BN": {
+      "flag": "BRN",
+      "file": "brunei.htm",
+      "name": "Brunei Darussalam",
+      "code": "BN"
+    },
+    "BO": {
+      "flag": "BOL",
+      "file": "bolivia.htm",
+      "name": "Bolivia",
+      "code": "BO"
+    },
+    "BR": {
+      "flag": "BRA",
+      "file": "brazil.htm",
+      "name": "Brazil",
+      "code": "BR"
+    },
+    "BS": {
+      "flag": "BHS",
+      "file": "bahamas.htm",
+      "name": "Bahamas",
+      "code": "BS"
+    },
+    "BT": {
+      "flag": "BTN",
+      "file": "bhutan.htm",
+      "name": "Bhutan",
+      "code": "BT"
+    },
+    "BV": {
+      "flag": "BVT",
+      "file": "",
+      "name": "Bouvet Island",
+      "code": "BV"
+    },
+    "BW": {
+      "flag": "BWA",
+      "file": "botswana.htm",
+      "name": "Botswana",
+      "code": "BW"
+    },
+    "BY": {
+      "flag": "BLR",
+      "file": "belarus.htm",
+      "name": "Belarus",
+      "code": "BY"
+    },
+    "BZ": {
+      "flag": "BLZ",
+      "file": "belize.htm",
+      "name": "Belize",
+      "code": "BZ"
+    },
+    "CA": {
+      "flag": "CAN",
+      "file": "canada.htm",
+      "name": "Canada",
+      "code": "CA"
+    },
+    "CC": {
+      "flag": "CCK",
+      "file": "",
+      "name": "Cocos (Keeling) Islands",
+      "code": "CC"
+    },
+    "CD": {
+      "flag": "COD",
+      "file": "congo_droc.htm",
+      "name": "Congo (Kinshasa)",
+      "code": "CD"
+    },
+    "CF": {
+      "flag": "CAF",
+      "file": "central_african_republic.htm",
+      "name": "Central African Republic",
+      "code": "CF"
+    },
+    "CG": {
+      "flag": "COG",
+      "file": "congo_roc.htm",
+      "name": "Congo (Brazzaville)",
+      "code": "CG"
+    },
+    "CH": {
+      "flag": "CHE",
+      "file": "switzerland.htm",
+      "name": "Switzerland",
+      "code": "CH"
+    },
+    "CI": {
+      "flag": "CIV",
+      "file": "cote_d_ivoire.htm",
+      "name": "Côte d'Ivoire",
+      "code": "CI"
+    },
+    "CK": {
+      "flag": "COK",
+      "file": "",
+      "name": "Cook Islands",
+      "code": "CK"
+    },
+    "CL": {
+      "flag": "CHL",
+      "file": "chile.htm",
+      "name": "Chile",
+      "code": "CL"
+    },
+    "CM": {
+      "flag": "CMR",
+      "file": "cameroon.htm",
+      "name": "Cameroon",
+      "code": "CM"
+    },
+    "CN": {
+      "flag": "CHN",
+      "file": "china.htm",
+      "name": "China",
+      "code": "CN"
+    },
+    "CO": {
+      "flag": "COL",
+      "file": "colombia.htm",
+      "name": "Colombia",
+      "code": "CO"
+    },
+    "CR": {
+      "flag": "CRI",
+      "file": "costa_rica.htm",
+      "name": "Costa Rica",
+      "code": "CR"
+    },
+    "CU": {
+      "flag": "CUB",
+      "file": "cuba.htm",
+      "name": "Cuba",
+      "code": "CU"
+    },
+    "CV": {
+      "flag": "CPV",
+      "file": "cape_verde.htm",
+      "name": "Cape Verde",
+      "code": "CV"
+    },
+    "CX": {
+      "flag": "CXR",
+      "file": "",
+      "name": "Christmas Island",
+      "code": "CX"
+    },
+    "CY": {
+      "flag": "CYP",
+      "file": "cyprus.htm",
+      "name": "Cyprus",
+      "code": "CY"
+    },
+    "CZ": {
+      "flag": "CZE",
+      "file": "czech_republic.htm",
+      "name": "Czech Republic",
+      "code": "CZ"
+    },
+    "DE": {
+      "flag": "DEU",
+      "file": "germany.htm",
+      "name": "Germany",
+      "code": "DE"
+    },
+    "DJ": {
+      "flag": "DJI",
+      "file": "djibouti.htm",
+      "name": "Djibouti",
+      "code": "DJ"
+    },
+    "DK": {
+      "flag": "DNK",
+      "file": "denmark.htm",
+      "name": "Denmark",
+      "code": "DK"
+    },
+    "DM": {
+      "flag": "DMA",
+      "file": "dominica.htm",
+      "name": "Dominica",
+      "code": "DM"
+    },
+    "DO": {
+      "flag": "DOM",
+      "file": "dominican_republic.htm",
+      "name": "Dominican Republic",
+      "code": "DO"
+    },
+    "DZ": {
+      "flag": "DZA",
+      "file": "algeria.htm",
+      "name": "Algeria",
+      "code": "DZ"
+    },
+    "EC": {
+      "flag": "ECU",
+      "file": "ecuador.htm",
+      "name": "Ecuador",
+      "code": "EC"
+    },
+    "EE": {
+      "flag": "EST",
+      "file": "estonia.htm",
+      "name": "Estonia",
+      "code": "EE"
+    },
+    "EG": {
+      "flag": "EGY",
+      "file": "egypt.htm",
+      "name": "Egypt",
+      "code": "EG"
+    },
+    "EH": {
+      "flag": "ESH",
+      "file": "",
+      "name": "Western Sahara",
+      "code": "EH"
+    },
+    "ER": {
+      "flag": "ERI",
+      "file": "eritrea.htm",
+      "name": "Eritrea",
+      "code": "ER"
+    },
+    "ES": {
+      "flag": "ESP",
+      "file": "spain.htm",
+      "name": "Spain",
+      "code": "ES"
+    },
+    "ET": {
+      "flag": "ETH",
+      "file": "ethiopia.htm",
+      "name": "Ethiopia",
+      "code": "ET"
+    },
+    "FI": {
+      "flag": "FIN",
+      "file": "finland.htm",
+      "name": "Finland",
+      "code": "FI"
+    },
+    "FJ": {
+      "flag": "FJI",
+      "file": "fiji.htm",
+      "name": "Fiji",
+      "code": "FJ"
+    },
+    "FK": {
+      "flag": "FLK",
+      "file": "",
+      "name": "Falkland Islands (Malvinas)",
+      "code": "FK"
+    },
+    "FM": {
+      "flag": "FSM",
+      "file": "micronesia.htm",
+      "name": "Micronesia, Federated States of",
+      "code": "FM"
+    },
+    "FO": {
+      "flag": "FRO",
+      "file": "faroe_islands.htm",
+      "name": "Faroe Islands",
+      "code": "FO"
+    },
+    "FR": {
+      "flag": "FRA",
+      "file": "france.htm",
+      "name": "France",
+      "code": "FR"
+    },
+    "GA": {
+      "flag": "GAB",
+      "file": "gabon.htm",
+      "name": "Gabon",
+      "code": "GA"
+    },
+    "GB": {
+      "flag": "GBR",
+      "file": "united_kingdom.htm",
+      "name": "United Kingdom",
+      "code": "GB"
+    },
+    "GD": {
+      "flag": "GRD",
+      "file": "grenada.htm",
+      "name": "Grenada",
+      "code": "GD"
+    },
+    "GE": {
+      "flag": "GEO",
+      "file": "georgia.htm",
+      "name": "Georgia",
+      "code": "GE"
+    },
+    "GF": {
+      "flag": "GUF",
+      "file": "french_guiana.htm",
+      "name": "French Guiana",
+      "code": "GF"
+    },
+    "GG": {
+      "flag": "GGY",
+      "file": "",
+      "name": "Guernsey",
+      "code": "GG"
+    },
+    "GH": {
+      "flag": "GHA",
+      "file": "ghana.htm",
+      "name": "Ghana",
+      "code": "GH"
+    },
+    "GI": {
+      "flag": "GIB",
+      "file": "",
+      "name": "Gibraltar",
+      "code": "GI"
+    },
+    "GL": {
+      "flag": "GRL",
+      "file": "greenland.htm",
+      "name": "Greenland",
+      "code": "GL"
+    },
+    "GM": {
+      "flag": "GMB",
+      "file": "gambia.htm",
+      "name": "Gambia",
+      "code": "GM"
+    },
+    "GN": {
+      "flag": "GIN",
+      "file": "guinea.htm",
+      "name": "Guinea",
+      "code": "GN"
+    },
+    "GP": {
+      "flag": "GLP",
+      "file": "guadeloupe.htm",
+      "name": "Guadeloupe",
+      "code": "GP"
+    },
+    "GQ": {
+      "flag": "GNQ",
+      "file": "equatorial_guinea.htm",
+      "name": "Equatorial Guinea",
+      "code": "GQ"
+    },
+    "GR": {
+      "flag": "GRC",
+      "file": "greece.htm",
+      "name": "Greece",
+      "code": "GR"
+    },
+    "GS": {
+      "flag": "SGS",
+      "file": "",
+      "name": "South Georgia and the South Sandwich Islands",
+      "code": "GS"
+    },
+    "GT": {
+      "flag": "GTM",
+      "file": "guatemala.htm",
+      "name": "Guatemala",
+      "code": "GT"
+    },
+    "GU": {
+      "flag": "GUM",
+      "file": "guam.htm",
+      "name": "Guam",
+      "code": "GU"
+    },
+    "GW": {
+      "flag": "GNB",
+      "file": "guinea_bissau.htm",
+      "name": "Guinea-Bissau",
+      "code": "GW"
+    },
+    "GY": {
+      "flag": "GUY",
+      "file": "guyana.htm",
+      "name": "Guyana",
+      "code": "GY"
+    },
+    "HK": {
+      "flag": "HKG",
+      "file": "hong_kong.htm",
+      "name": "Hong Kong, SAR China",
+      "code": "HK"
+    },
+    "HM": {
+      "flag": "HMD",
+      "file": "",
+      "name": "Heard and Mcdonald Islands",
+      "code": "HM"
+    },
+    "HN": {
+      "flag": "HND",
+      "file": "honduras.htm",
+      "name": "Honduras",
+      "code": "HN"
+    },
+    "HR": {
+      "flag": "HRV",
+      "file": "croatia.htm",
+      "name": "Croatia",
+      "code": "HR"
+    },
+    "HT": {
+      "flag": "HTI",
+      "file": "haiti.htm",
+      "name": "Haiti",
+      "code": "HT"
+    },
+    "HU": {
+      "flag": "HUN",
+      "file": "hungary.htm",
+      "name": "Hungary",
+      "code": "HU"
+    },
+    "ID": {
+      "flag": "IDN",
+      "file": "indonesia.htm",
+      "name": "Indonesia",
+      "code": "ID"
+    },
+    "IE": {
+      "flag": "IRL",
+      "file": "ireland.htm",
+      "name": "Ireland",
+      "code": "IE"
+    },
+    "IL": {
+      "flag": "ISR",
+      "file": "israel.htm",
+      "name": "Israel",
+      "code": "IL"
+    },
+    "IM": {
+      "flag": "IMN",
+      "file": "",
+      "name": "Isle of Man",
+      "code": "IM"
+    },
+    "IN": {
+      "flag": "IND",
+      "file": "india.htm",
+      "name": "India",
+      "code": "IN"
+    },
+    "IO": {
+      "flag": "IOT",
+      "file": "",
+      "name": "British Indian Ocean Territory",
+      "code": "IO"
+    },
+    "IQ": {
+      "flag": "IRQ",
+      "file": "iraq.htm",
+      "name": "Iraq",
+      "code": "IQ"
+    },
+    "IR": {
+      "flag": "IRN",
+      "file": "iran.htm",
+      "name": "Iran, Islamic Republic of",
+      "code": "IR"
+    },
+    "IS": {
+      "flag": "ISL",
+      "file": "iceland.htm",
+      "name": "Iceland",
+      "code": "IS"
+    },
+    "IT": {
+      "flag": "ITA",
+      "file": "italy.htm",
+      "name": "Italy",
+      "code": "IT"
+    },
+    "JE": {
+      "flag": "JEY",
+      "file": "",
+      "name": "Jersey",
+      "code": "JE"
+    },
+    "JM": {
+      "flag": "JAM",
+      "file": "jamaica.htm",
+      "name": "Jamaica",
+      "code": "JM"
+    },
+    "JO": {
+      "flag": "JOR",
+      "file": "jordan.htm",
+      "name": "Jordan",
+      "code": "JO"
+    },
+    "JP": {
+      "flag": "JPN",
+      "file": "japan.htm",
+      "name": "Japan",
+      "code": "JP"
+    },
+    "KE": {
+      "flag": "KEN",
+      "file": "kenya.htm",
+      "name": "Kenya",
+      "code": "KE"
+    },
+    "KG": {
+      "flag": "KGZ",
+      "file": "kyrgyzstan.htm",
+      "name": "Kyrgyzstan",
+      "code": "KG"
+    },
+    "KH": {
+      "flag": "KHM",
+      "file": "cambodia.htm",
+      "name": "Cambodia",
+      "code": "KH"
+    },
+    "KI": {
+      "flag": "KIR",
+      "file": "kiribati.htm",
+      "name": "Kiribati",
+      "code": "KI"
+    },
+    "KM": {
+      "flag": "COM",
+      "file": "comoros.htm",
+      "name": "Comoros",
+      "code": "KM"
+    },
+    "KN": {
+      "flag": "KNA",
+      "file": "saint_kitts_nevis.htm",
+      "name": "Saint Kitts and Nevis",
+      "code": "KN"
+    },
+    "KP": {
+      "flag": "PRK",
+      "file": "korea_north.htm",
+      "name": "Korea (North)",
+      "code": "KP"
+    },
+    "KR": {
+      "flag": "KOR",
+      "file": "korea_south.htm",
+      "name": "Korea (South)",
+      "code": "KR"
+    },
+    "KW": {
+      "flag": "KWT",
+      "file": "kuwait.htm",
+      "name": "Kuwait",
+      "code": "KW"
+    },
+    "KY": {
+      "flag": "CYM",
+      "file": "",
+      "name": "Cayman Islands",
+      "code": "KY"
+    },
+    "KZ": {
+      "flag": "KAZ",
+      "file": "kazakhstan.htm",
+      "name": "Kazakhstan",
+      "code": "KZ"
+    },
+    "LA": {
+      "flag": "LAO",
+      "file": "laos.htm",
+      "name": "Lao PDR",
+      "code": "LA"
+    },
+    "LB": {
+      "flag": "LBN",
+      "file": "lebanon.htm",
+      "name": "Lebanon",
+      "code": "LB"
+    },
+    "LC": {
+      "flag": "LCA",
+      "file": "saint_lucia.htm",
+      "name": "Saint Lucia",
+      "code": "LC"
+    },
+    "LI": {
+      "flag": "LIE",
+      "file": "liechtenstein.htm",
+      "name": "Liechtenstein",
+      "code": "LI"
+    },
+    "LK": {
+      "flag": "LKA",
+      "file": "sri_lanka.htm",
+      "name": "Sri Lanka",
+      "code": "LK"
+    },
+    "LR": {
+      "flag": "LBR",
+      "file": "liberia.htm",
+      "name": "Liberia",
+      "code": "LR"
+    },
+    "LS": {
+      "flag": "LSO",
+      "file": "lesotho.htm",
+      "name": "Lesotho",
+      "code": "LS"
+    },
+    "LT": {
+      "flag": "LTU",
+      "file": "lithuania.htm",
+      "name": "Lithuania",
+      "code": "LT"
+    },
+    "LU": {
+      "flag": "LUX",
+      "file": "luxembourg.htm",
+      "name": "Luxembourg",
+      "code": "LU"
+    },
+    "LV": {
+      "flag": "LVA",
+      "file": "latvia.htm",
+      "name": "Latvia",
+      "code": "LV"
+    },
+    "LY": {
+      "flag": "LBY",
+      "file": "libya.htm",
+      "name": "Libya",
+      "code": "LY"
+    },
+    "MA": {
+      "flag": "MAR",
+      "file": "morocco.htm",
+      "name": "Morocco",
+      "code": "MA"
+    },
+    "MC": {
+      "flag": "MCO",
+      "file": "monaco.htm",
+      "name": "Monaco",
+      "code": "MC"
+    },
+    "MD": {
+      "flag": "MDA",
+      "file": "moldova.htm",
+      "name": "Moldova",
+      "code": "MD"
+    },
+    "ME": {
+      "flag": "MNE",
+      "file": "montenegro.htm",
+      "name": "Montenegro",
+      "code": "ME"
+    },
+    "MF": {
+      "flag": "MAF",
+      "file": "",
+      "name": " Saint-Martin (French part)",
+      "code": "MF"
+    },
+    "MG": {
+      "flag": "MDG",
+      "file": "madagascar.htm",
+      "name": "Madagascar",
+      "code": "MG"
+    },
+    "MH": {
+      "flag": "MHL",
+      "file": "marshall_islands.htm",
+      "name": "Marshall Islands",
+      "code": "MH"
+    },
+    "MK": {
+      "flag": "MKD",
+      "file": "macedonia_rep.htm",
+      "name": "Macedonia, Republic of",
+      "code": "MK"
+    },
+    "ML": {
+      "flag": "MLI",
+      "file": "mali.htm",
+      "name": "Mali",
+      "code": "ML"
+    },
+    "MM": {
+      "flag": "MMR",
+      "file": "myanmar.htm",
+      "name": "Myanmar",
+      "code": "MM"
+    },
+    "MN": {
+      "flag": "MNG",
+      "file": "mongolia.htm",
+      "name": "Mongolia",
+      "code": "MN"
+    },
+    "MO": {
+      "flag": "MAC",
+      "file": "macau.htm",
+      "name": "Macao, SAR China",
+      "code": "MO"
+    },
+    "MP": {
+      "flag": "MNP",
+      "file": "northern_mariana_islands.htm",
+      "name": "Northern Mariana Islands",
+      "code": "MP"
+    },
+    "MQ": {
+      "flag": "MTQ",
+      "file": "martinique.htm",
+      "name": "Martinique",
+      "code": "MQ"
+    },
+    "MR": {
+      "flag": "MRT",
+      "file": "mauritania.htm",
+      "name": "Mauritania",
+      "code": "MR"
+    },
+    "MS": {
+      "flag": "MSR",
+      "file": "montserrat.htm",
+      "name": "Montserrat",
+      "code": "MS"
+    },
+    "MT": {
+      "flag": "MLT",
+      "file": "malta.htm",
+      "name": "Malta",
+      "code": "MT"
+    },
+    "MU": {
+      "flag": "MUS",
+      "file": "mauritius.htm",
+      "name": "Mauritius",
+      "code": "MU"
+    },
+    "MV": {
+      "flag": "MDV",
+      "file": "maldives.htm",
+      "name": "Maldives",
+      "code": "MV"
+    },
+    "MW": {
+      "flag": "MWI",
+      "file": "malawi.htm",
+      "name": "Malawi",
+      "code": "MW"
+    },
+    "MX": {
+      "flag": "MEX",
+      "file": "mexico.htm",
+      "name": "Mexico",
+      "code": "MX"
+    },
+    "MY": {
+      "flag": "MYS",
+      "file": "malaysia.htm",
+      "name": "Malaysia",
+      "code": "MY"
+    },
+    "MZ": {
+      "flag": "MOZ",
+      "file": "mozambique.htm",
+      "name": "Mozambique",
+      "code": "MZ"
+    },
+    "NA": {
+      "flag": "NAM",
+      "file": "namibia.htm",
+      "name": "Namibia",
+      "code": "NA"
+    },
+    "NC": {
+      "flag": "NCL",
+      "file": "new_caledonia.htm",
+      "name": "New Caledonia",
+      "code": "NC"
+    },
+    "NE": {
+      "flag": "NER",
+      "file": "niger.htm",
+      "name": "Niger",
+      "code": "NE"
+    },
+    "NF": {
+      "flag": "NFK",
+      "file": "",
+      "name": "Norfolk Island",
+      "code": "NF"
+    },
+    "NG": {
+      "flag": "NGA",
+      "file": "nigeria.htm",
+      "name": "Nigeria",
+      "code": "NG"
+    },
+    "NI": {
+      "flag": "NIC",
+      "file": "nicaragua.htm",
+      "name": "Nicaragua",
+      "code": "NI"
+    },
+    "NL": {
+      "flag": "NLD",
+      "file": "netherlands.htm",
+      "name": "Netherlands",
+      "code": "NL"
+    },
+    "NO": {
+      "flag": "NOR",
+      "file": "norway.htm",
+      "name": "Norway",
+      "code": "NO"
+    },
+    "NP": {
+      "flag": "NPL",
+      "file": "nepal.htm",
+      "name": "Nepal",
+      "code": "NP"
+    },
+    "NR": {
+      "flag": "NRU",
+      "file": "nauru.htm",
+      "name": "Nauru",
+      "code": "NR"
+    },
+    "NU": {
+      "flag": "NIU",
+      "file": "",
+      "name": "Niue",
+      "code": "NU"
+    },
+    "NZ": {
+      "flag": "NZL",
+      "file": "new_zealand.htm",
+      "name": "New Zealand",
+      "code": "NZ"
+    },
+    "OM": {
+      "flag": "OMN",
+      "file": "oman.htm",
+      "name": "Oman",
+      "code": "OM"
+    },
+    "PA": {
+      "flag": "PAN",
+      "file": "panama.htm",
+      "name": "Panama",
+      "code": "PA"
+    },
+    "PE": {
+      "flag": "PER",
+      "file": "peru.htm",
+      "name": "Peru",
+      "code": "PE"
+    },
+    "PF": {
+      "flag": "PYF",
+      "file": "french_polynesia.htm",
+      "name": "French Polynesia",
+      "code": "PF"
+    },
+    "PG": {
+      "flag": "PNG",
+      "file": "papua_new_guinea.htm",
+      "name": "Papua New Guinea",
+      "code": "PG"
+    },
+    "PH": {
+      "flag": "PHL",
+      "file": "philippines.htm",
+      "name": "Philippines",
+      "code": "PH"
+    },
+    "PK": {
+      "flag": "PAK",
+      "file": "pakistan.htm",
+      "name": "Pakistan",
+      "code": "PK"
+    },
+    "PL": {
+      "flag": "POL",
+      "file": "poland.htm",
+      "name": "Poland",
+      "code": "PL"
+    },
+    "PM": {
+      "flag": "SPM",
+      "file": "",
+      "name": "Saint Pierre and Miquelon",
+      "code": "PM"
+    },
+    "PN": {
+      "flag": "PCN",
+      "file": "pitcairn.htm",
+      "name": "Pitcairn",
+      "code": "PN"
+    },
+    "PR": {
+      "flag": "PRI",
+      "file": "puerto_rico.htm",
+      "name": "Puerto Rico",
+      "code": "PR"
+    },
+    "PS": {
+      "flag": "PSE",
+      "file": "palestinian_territory.htm",
+      "name": "Palestinian Territory",
+      "code": "PS"
+    },
+    "PT": {
+      "flag": "PRT",
+      "file": "portugal.htm",
+      "name": "Portugal",
+      "code": "PT"
+    },
+    "PW": {
+      "flag": "PLW",
+      "file": "palau.htm",
+      "name": "Palau",
+      "code": "PW"
+    },
+    "PY": {
+      "flag": "PRY",
+      "file": "paraguay.htm",
+      "name": "Paraguay",
+      "code": "PY"
+    },
+    "QA": {
+      "flag": "QAT",
+      "file": "qatar.htm",
+      "name": "Qatar",
+      "code": "QA"
+    },
+    "RE": {
+      "flag": "REU",
+      "file": "reunion.htm",
+      "name": "Réunion",
+      "code": "RE"
+    },
+    "RO": {
+      "flag": "ROU",
+      "file": "romania.htm",
+      "name": "Romania",
+      "code": "RO"
+    },
+    "RS": {
+      "flag": "SRB",
+      "file": "serbia.htm",
+      "name": "Serbia",
+      "code": "RS"
+    },
+    "RU": {
+      "flag": "RUS",
+      "file": "russia.htm",
+      "name": "Russian Federation",
+      "code": "RU"
+    },
+    "RW": {
+      "flag": "RWA",
+      "file": "rwanda.htm",
+      "name": "Rwanda",
+      "code": "RW"
+    },
+    "SA": {
+      "flag": "SAU",
+      "file": "saudi_arabia.htm",
+      "name": "Saudi Arabia",
+      "code": "SA"
+    },
+    "SB": {
+      "flag": "SLB",
+      "file": "solomon_islands.htm",
+      "name": "Solomon Islands",
+      "code": "SB"
+    },
+    "SC": {
+      "flag": "SYC",
+      "file": "seychelles.htm",
+      "name": "Seychelles",
+      "code": "SC"
+    },
+    "SD": {
+      "flag": "SDN",
+      "file": "sudan.htm",
+      "name": "Sudan",
+      "code": "SD"
+    },
+    "SE": {
+      "flag": "SWE",
+      "file": "sweden.htm",
+      "name": "Sweden",
+      "code": "SE"
+    },
+    "SG": {
+      "flag": "SGP",
+      "file": "singapore.htm",
+      "name": "Singapore",
+      "code": "SG"
+    },
+    "SH": {
+      "flag": "SHN",
+      "file": "",
+      "name": "Saint Helena",
+      "code": "SH"
+    },
+    "SI": {
+      "flag": "SVN",
+      "file": "slovenia.htm",
+      "name": "Slovenia",
+      "code": "SI"
+    },
+    "SJ": {
+      "flag": "SJM",
+      "file": "",
+      "name": "Svalbard and Jan Mayen Islands",
+      "code": "SJ"
+    },
+    "SK": {
+      "flag": "SVK",
+      "file": "slovakia.htm",
+      "name": "Slovakia",
+      "code": "SK"
+    },
+    "SL": {
+      "flag": "SLE",
+      "file": "sierra_leone.htm",
+      "name": "Sierra Leone",
+      "code": "SL"
+    },
+    "SM": {
+      "flag": "SMR",
+      "file": "san_marino.htm",
+      "name": "San Marino",
+      "code": "SM"
+    },
+    "SN": {
+      "flag": "SEN",
+      "file": "senegal.htm",
+      "name": "Senegal",
+      "code": "SN"
+    },
+    "SO": {
+      "flag": "SOM",
+      "file": "somalia.htm",
+      "name": "Somalia",
+      "code": "SO"
+    },
+    "SR": {
+      "flag": "SUR",
+      "file": "suriname.htm",
+      "name": "Suriname",
+      "code": "SR"
+    },
+    "SS": {
+      "flag": "SSD",
+      "file": "",
+      "name": "South Sudan",
+      "code": "SS"
+    },
+    "ST": {
+      "flag": "STP",
+      "file": "sao_tome_principe.htm",
+      "name": "Sao Tome and Principe",
+      "code": "ST"
+    },
+    "SV": {
+      "flag": "SLV",
+      "file": "el_salvador.htm",
+      "name": "El Salvador",
+      "code": "SV"
+    },
+    "SY": {
+      "flag": "SYR",
+      "file": "syria.htm",
+      "name": "Syrian Arab Republic (Syria)",
+      "code": "SY"
+    },
+    "SZ": {
+      "flag": "SWZ",
+      "file": "swaziland.htm",
+      "name": "Swaziland",
+      "code": "SZ"
+    },
+    "TC": {
+      "flag": "TCA",
+      "file": "",
+      "name": "Turks and Caicos Islands",
+      "code": "TC"
+    },
+    "TD": {
+      "flag": "TCD",
+      "file": "chad.htm",
+      "name": "Chad",
+      "code": "TD"
+    },
+    "TF": {
+      "flag": "ATF",
+      "file": "",
+      "name": "French Southern Territories",
+      "code": "TF"
+    },
+    "TG": {
+      "flag": "TGO",
+      "file": "togo.htm",
+      "name": "Togo",
+      "code": "TG"
+    },
+    "TH": {
+      "flag": "THA",
+      "file": "thailand.htm",
+      "name": "Thailand",
+      "code": "TH"
+    },
+    "TJ": {
+      "flag": "TJK",
+      "file": "tajikistan.htm",
+      "name": "Tajikistan",
+      "code": "TJ"
+    },
+    "TK": {
+      "flag": "TKL",
+      "file": "",
+      "name": "Tokelau",
+      "code": "TK"
+    },
+    "TL": {
+      "flag": "TLS",
+      "file": "timor_leste.htm",
+      "name": "Timor-Leste",
+      "code": "TL"
+    },
+    "TM": {
+      "flag": "TKM",
+      "file": "turkmenistan.htm",
+      "name": "Turkmenistan",
+      "code": "TM"
+    },
+    "TN": {
+      "flag": "TUN",
+      "file": "tunisia.htm",
+      "name": "Tunisia",
+      "code": "TN"
+    },
+    "TO": {
+      "flag": "TON",
+      "file": "tonga.htm",
+      "name": "Tonga",
+      "code": "TO"
+    },
+    "TR": {
+      "flag": "TUR",
+      "file": "turkey.htm",
+      "name": "Turkey",
+      "code": "TR"
+    },
+    "TT": {
+      "flag": "TTO",
+      "file": "trinidad_and_tobago.htm",
+      "name": "Trinidad and Tobago",
+      "code": "TT"
+    },
+    "TV": {
+      "flag": "TUV",
+      "file": "tuvalu.htm",
+      "name": "Tuvalu",
+      "code": "TV"
+    },
+    "TW": {
+      "flag": "TWN",
+      "file": "taiwan.htm",
+      "name": "Taiwan, Republic of China",
+      "code": "TW"
+    },
+    "TZ": {
+      "flag": "TZA",
+      "file": "tanzania.htm",
+      "name": "Tanzania, United Republic of",
+      "code": "TZ"
+    },
+    "UA": {
+      "flag": "UKR",
+      "file": "ukraine.htm",
+      "name": "Ukraine",
+      "code": "UA"
+    },
+    "UG": {
+      "flag": "UGA",
+      "file": "uganda.htm",
+      "name": "Uganda",
+      "code": "UG"
+    },
+    "UM": {
+      "flag": "UMI",
+      "file": "",
+      "name": "US Minor Outlying Islands",
+      "code": "UM"
+    },
+    "US": {
+      "flag": "USA",
+      "file": "united_states.htm",
+      "name": "United States of America",
+      "code": "US"
+    },
+    "UY": {
+      "flag": "URY",
+      "file": "uruguay.htm",
+      "name": "Uruguay",
+      "code": "UY"
+    },
+    "UZ": {
+      "flag": "UZB",
+      "file": "uzbekistan.htm",
+      "name": "Uzbekistan",
+      "code": "UZ"
+    },
+    "VA": {
+      "flag": "VAT",
+      "file": "vatican.htm",
+      "name": "Holy See (Vatican City State)",
+      "code": "VA"
+    },
+    "VC": {
+      "flag": "VCT",
+      "file": "saint_vincent_grenadines.htm",
+      "name": "Saint Vincent and Grenadines",
+      "code": "VC"
+    },
+    "VE": {
+      "flag": "VEN",
+      "file": "venezuela.htm",
+      "name": "Venezuela (Bolivarian Republic)",
+      "code": "VE"
+    },
+    "VG": {
+      "flag": "VGB",
+      "file": "virgin_islands_british.htm",
+      "name": "British Virgin Islands",
+      "code": "VG"
+    },
+    "VI": {
+      "flag": "VIR",
+      "file": "virgin_islands_us.htm",
+      "name": "Virgin Islands, US",
+      "code": "VI"
+    },
+    "VN": {
+      "flag": "VNM",
+      "file": "vietnam.htm",
+      "name": "Viet Nam",
+      "code": "VN"
+    },
+    "VU": {
+      "flag": "VUT",
+      "file": "vanuatu.htm",
+      "name": "Vanuatu",
+      "code": "VU"
+    },
+    "WF": {
+      "flag": "WLF",
+      "file": "",
+      "name": "Wallis and Futuna Islands",
+      "code": "WF"
+    },
+    "WS": {
+      "flag": "WSM",
+      "file": "samoa.htm",
+      "name": "Samoa",
+      "code": "WS"
+    },
+    "YE": {
+      "flag": "YEM",
+      "file": "yemen.htm",
+      "name": "Yemen",
+      "code": "YE"
+    },
+    "YT": {
+      "flag": "MYT",
+      "file": "",
+      "name": "Mayotte",
+      "code": "YT"
+    },
+    "ZA": {
+      "flag": "ZAF",
+      "file": "south_africa.htm",
+      "name": "South Africa",
+      "code": "ZA"
+    },
+    "ZM": {
+      "flag": "ZMB",
+      "file": "zambia.htm",
+      "name": "Zambia",
+      "code": "ZM"
+    },
+    "ZW": {
+      "flag": "ZWE",
+      "file": "zimbabwe.htm",
+      "name": "Zimbabwe",
+      "code": "ZW"
+    }
+  }
+}
