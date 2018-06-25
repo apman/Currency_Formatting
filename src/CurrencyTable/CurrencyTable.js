@@ -10,7 +10,8 @@ class CurrencyTable extends Component {
     autoBind(this);
 
     this.state = {
-      showColumns: [10, 15, 109, 355]  // TODO:   set dynamically ...
+      showColumns: [10, 15, 109, 355],  // TODO:   set dynamically ...
+      showRows: [10, 15, 109, 120, 130],  // TODO:   set dynamically ...
     }
   
   }
@@ -23,38 +24,66 @@ class CurrencyTable extends Component {
 
   currencyRow(currency) {
     const {locales} = this.props;
-    const rowHeading = <th><Tooltip content={JSON.stringify(currency.countries, null, 1)}><Link>{currency.code}<br />{currency.name}</Link></Tooltip></th>
-    const formattedValues = locales.map(locale => <td>{new Intl.NumberFormat(locale, {style: 'currency', currency: currency.code}).format(9.99)}</td>);
-    return <tr>{rowHeading}{formattedValues}</tr>;
+    const formattedValues = locales.map(locale => <span>{new Intl.NumberFormat(locale, {style: 'currency', currency: currency.code}).format(9.99)}</span>);
+    return <div class="trow">{formattedValues}</div>;
     //  ???  would it be preferable to use a for loop to push individual formatted values onto [rowHeading] to avoid
     //        the reshuffle ?
   }
 
-  localeHeadings() {
-    const {locales} = this.props;
-    const headings = locales.map(locale => <th>{locale}</th>);
-    return headings;
+  currencyHeadings() {
+    const {currencies} = this.props;
+    return (currencies.map(currency => (
+          <div class="trow">
+            <span>
+              <Tooltip content={JSON.stringify(currency.countries, null, 1)}>
+                <Link><b>{currency.code}</b><br />{currency.name}</Link>
+              </Tooltip>
+            </span>
+          </div>
+        )
+      )
+    );
   }
 
+  localeHeadings() {
+    const {locales} = this.props;
+    return (locales.map(locale => <span>{locale}</span>));
+  }
+
+  componentDidMount() {
+    const fcBody = document.querySelector(".fix-column > .tbody");
+    const rcBody = document.querySelector(".rest-columns > .tbody");
+    const rcHead = document.querySelector(".rest-columns > .thead");
+    rcBody.addEventListener("scroll", function() {
+          fcBody.scrollTop = this.scrollTop;
+          rcHead.scrollLeft = this.scrollLeft;
+      }, { passive: true });
+  }
   // const test = 'hello';
   
   render() {
     const {currencies, locales} = this.props;
     const rows = this.currencyRows(); 
-    const headings = this.localeHeadings();
+    const columnHeadings = this.localeHeadings();
+    const rowHeadings = this.currencyHeadings();
 
     return (
       <div>
-        {/* <div className={styles.TableContainer}> */}
-        <div class="TableContainer">
-          <table>
-            <thead>
-              <tr><th>Currency</th>{headings}</tr>
-            </thead>
-            <tbody>{rows}</tbody>
-          </table>
+        <div>{`Showing ${this.state.showRows.length} of ${currencies.length} currencies, and ${this.state.showColumns.length} of ${locales.length} locales`}</div>
+
+
+        <div>
+          <div class="fix-column">
+              <div class="thead">
+                  <span>Currency</span>
+              </div>
+              <div class="tbody">{rowHeadings}</div>
+          </div>
+          <div class="rest-columns">
+              <div class="thead">{columnHeadings}</div>
+              <div class="tbody">{rows}</div>
+          </div>
         </div>
-        <div>{`Showing ${rows.length} of ${currencies.length} currencies, and ${headings.length - 1} of ${locales.length} locales`}</div>
       </div>
     );
   }

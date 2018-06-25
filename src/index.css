@@ -3,3 +3,84 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.Polaris-Page {
+  max-width: 100%;
+}
+
+/* ----------------------------------------------------------
+   Scrolling table with fixed header & first column
+    (adapted from https://codepen.io/MaxArt2501/pen/qLCmE ) */
+.fix-column {
+    float: left;
+}
+.thead {
+    height: 40px;
+    white-space: nowrap;
+}
+.fix-column > .thead > span {
+    width: 210px;
+}
+.thead > span {
+    display: inline-block;
+    width: 120px;
+    line-height: 40px;
+    box-shadow: inset 0 0 1px 0 rgba(0,0,0,.5);
+    background-color: #43467F;  /* Polaris "Title bar" */
+    color: #fff;
+    text-align: center;
+}
+.trow {
+    white-space: nowrap;
+}
+.trow > span {
+    display: inline-block;
+    width: 120px;
+    box-shadow: inset 0 0 1px 0 rgba(0,0,0,.5);
+    line-height: 50px;
+    height: 50px;
+    text-align: center; 
+}
+.fix-column > .tbody > .trow > span {
+  width: 210px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 8px;
+}
+.tbody {
+    height: 700px;  /*  TODO:  try using flexbox to make it screen-height */
+    overflow: auto;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fix-column > .tbody {
+    overflow: hidden;
+    /*padding-bottom: 50px;*/
+}
+/*.fix-column > .tbody > .trow:last-child {margin-bottom: 50px;}*/
+
+.fix-column > .tbody > .trow {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.fix-column > .tbody > .trow:first-child {
+    margin-top: 0px;
+}
+
+.rest-columns {
+    width: 100%;
+}
+.rest-columns > .thead {
+    /*padding-right: 50px;*/
+    overflow: hidden;
+}
+/*.rest-columns > .thead > :last-child {margin-right: 50px;}*/
+.rest-columns > .thead > span {
+    margin-right: 50px;
+    margin-left: -50px;
+}
+.rest-columns > .thead > :first-child {margin-left: 0px;}
+
+/* ----------------------------------------------------------
+   END of Scrolling table with fixed header & first column
+*/
