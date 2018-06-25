@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {Card, Link, Tooltip} from '@shopify/polaris';
+import {Card, Link, Tooltip, Layout} from '@shopify/polaris';
 import autoBind from 'react-autobind';
+import styles from './CurrencyTable.scss';
 
 
 class CurrencyTable extends Component {
@@ -44,12 +45,15 @@ class CurrencyTable extends Component {
 
     return (
       <div>
-        <table>
-          <thead>
-            <tr><th>Currency</th>{headings}</tr>
-          </thead>
-          <tbody>{rows}</tbody>
-        </table>
+        {/* <div className={styles.TableContainer}> */}
+        <div class="TableContainer">
+          <table>
+            <thead>
+              <tr><th>Currency</th>{headings}</tr>
+            </thead>
+            <tbody>{rows}</tbody>
+          </table>
+        </div>
         <div>{`Showing ${rows.length} of ${currencies.length} currencies, and ${headings.length - 1} of ${locales.length} locales`}</div>
       </div>
     );
