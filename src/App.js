@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {AppProvider, Page} from '@shopify/polaris';
 import loadCurrencies from './Resources/CurrencyLoader';
-import CurrencyTable from './CurrencyTable.js'
+import CurrencyTable from './CurrencyTable/CurrencyTable.js'
 import locales from '../node_modules/i18n-locales';
 import autoBind from 'react-autobind';
 

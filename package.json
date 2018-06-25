@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@shopify/polaris": "^2.2.0",
+    "eslint": "^5.0.0",
     "i18n-locales": "^0.0.2",
+    "npm": "^6.1.0",
     "react": "^16.4.1",
     "react-autobind": "^1.0.6",
     "react-dom": "^16.4.1",
