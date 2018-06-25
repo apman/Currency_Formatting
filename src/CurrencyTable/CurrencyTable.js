@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Card, Link, Tooltip, Layout} from '@shopify/polaris';
+import {Link, Tooltip} from '@shopify/polaris';
 import autoBind from 'react-autobind';
 import styles from './CurrencyTable.scss';
 
@@ -22,18 +22,23 @@ class CurrencyTable extends Component {
     return rows;
   }
 
-  currencyRow(currency) {
+  currencyRow(currency, index) {
     const {locales} = this.props;
-    const formattedValues = locales.map(locale => <span>{new Intl.NumberFormat(locale, {style: 'currency', currency: currency.code}).format(9.99)}</span>);
-    return <div class="trow">{formattedValues}</div>;
+    const formattedValues = locales.map((locale, index) => (
+      <span key={`val_${index}`}>
+        {new Intl.NumberFormat(locale, {style: 'currency', currency: currency.code}).format(9.99)}
+      </span>
+      )
+    );
+    return <div className="trow" key={`row_${index}`}>{formattedValues}</div>;
     //  ???  would it be preferable to use a for loop to push individual formatted values onto [rowHeading] to avoid
     //        the reshuffle ?
   }
 
   currencyHeadings() {
     const {currencies} = this.props;
-    return (currencies.map(currency => (
-          <div class="trow">
+    return (currencies.map((currency, index) => (
+          <div className="trow" key={`cur_${index}`}>
             <span>
               <Tooltip content={JSON.stringify(currency.countries, null, 1)}>
                 <Link><b>{currency.code}</b><br />{currency.name}</Link>
@@ -47,7 +52,7 @@ class CurrencyTable extends Component {
 
   localeHeadings() {
     const {locales} = this.props;
-    return (locales.map(locale => <span>{locale}</span>));
+    return (locales.map((locale, index) => <span key={`loc_${index}`}>{locale}</span>));
   }
 
   componentDidMount() {
@@ -73,15 +78,15 @@ class CurrencyTable extends Component {
 
 
         <div>
-          <div class="fix-column">
-              <div class="thead">
+          <div className="fix-column">
+              <div className="thead">
                   <span>Currency</span>
               </div>
-              <div class="tbody">{rowHeadings}</div>
+              <div className="tbody">{rowHeadings}</div>
           </div>
-          <div class="rest-columns">
-              <div class="thead">{columnHeadings}</div>
-              <div class="tbody">{rows}</div>
+          <div className="rest-columns">
+              <div className="thead">{columnHeadings}</div>
+              <div className="tbody">{rows}</div>
           </div>
         </div>
       </div>
