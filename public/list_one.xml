@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Source: https://www.currency-iso.org/dam/downloads/lists/list_one.xml -->
+<!-- Source: https://www.currency-iso.org/dam/downloads/lists/list_one.xml (saved 14 Jun 2018) -->
 <!-- TODO:  find out if there would be a way to load directly from there -->
 <ISO_4217 Pblshd="2018-01-01">
 	<CcyTbl>
