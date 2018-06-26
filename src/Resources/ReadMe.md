@@ -1,0 +1,2 @@
+- CountryCodes list manually generated from http://www.nationsonline.org/oneworld/country_code_list.htm (copied 24 Jun 2018)
+- Language Codes list manually generated from http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry (File-Date: 2018-04-23)
