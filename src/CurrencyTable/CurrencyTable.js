@@ -86,7 +86,7 @@ class CurrencyTable extends Component {
       }
       showFields.push(showFieldsInRow);
     }
-    this.setState({showFields, showRows, showColumns, numFields, numRows, numColumns}, this.render);
+    this.setState({showFields, showRows, showColumns, numFields, numRows, numColumns});
   }  
 
   tableRows() {
