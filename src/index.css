@@ -8,10 +8,14 @@ body {
   max-width: 100%;
 }
 
-.thead .Polaris-Link {
+.Polaris-Link {
   color: #fff;
 }
 
+.Polaris-Link:active, .Polaris-Link:focus, .Polaris-Link:hover {
+  outline: none;
+  color: #fff;
+}
 .thead .Polaris-Link:active, .thead .Polaris-Link:focus, .thead .Polaris-Link:hover {
   color: #F6F0FD;
 }
@@ -33,7 +37,7 @@ body {
   display: inline-block;
   width: 120px;
   line-height: 40px;
-  box-shadow: inset 0 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #43467F;  /* Polaris "Title bar" */
   color: #fff;
   text-align: center;
@@ -50,6 +54,7 @@ body {
   text-align: center; 
 }
 .fix-column > .tbody > .trow > span {
+  box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.5);
   width: 210px;
   line-height: 30px;
   text-align: left;
@@ -63,6 +68,7 @@ body {
 }
 .fix-column > .tbody {
   overflow: hidden;
+  background-color: #43467F;  /* Polaris "Title bar" */
 }
 
 .fix-column > .tbody > .trow {
@@ -91,4 +97,29 @@ body {
 
 .coloured-column {
   background-color: #B3BCF5; /* Polaris indigo light  TODO:  try using the name ... */
+}
+
+span.hide {
+  color: #bbbbbb;
+}
+
+span.coloured-column.hide {
+  color: #888ebd;
+}
+
+span.mixedValues .Polaris-Link {
+  color: #B3BCF5;
+}
+
+.Polaris-Button {
+  margin: 2.5rem 0 0 5rem;
+}
+
+.Polaris-ChoiceList {
+  margin: 0 0 0 2rem;
+}
+
+.Polaris-Card {
+  padding: 7px;
+  margin-bottom: 10px;
 }
