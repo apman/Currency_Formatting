@@ -8,8 +8,8 @@ export default function loadCurrencies(handleResult) {
   .then(xmlDoc => {
     const elements = xmlDoc.getElementsByTagName("CcyNtry");
     let currencies = [];
-    for (let i = 0; i < elements.length; i++) {
-    // for (let i = 0; i < 5; i++) {  // TEMP  restricting length 
+    //for (let i = 0; i < elements.length; i++) {
+    for (let i = 0; i < 50; i++) {  // TEMP  restricting length 
       const isCurrency = elements[i].getElementsByTagName("Ccy")[0] 
         && elements[i].getElementsByTagName("CtryNm")[0].innerHTML.indexOf("ZZ") === -1;
       if (isCurrency) {

@@ -14,7 +14,6 @@ class App extends Component {
     this.state = {
       currencies: [],
       locales: [], 
-      amount: 7.30,
     }
   }
 
@@ -28,8 +27,13 @@ class App extends Component {
   }
 
   render() {
+    const defaultAmount = 123456.90
     const currencyTable = (this.state.currencies.length !== 0) 
-      ? <CurrencyTable currencies={this.state.currencies} locales={this.state.locales} amount={this.state.amount}/> 
+      ? <CurrencyTable 
+          currencies={this.state.currencies} 
+          locales={this.state.locales} 
+          amount={defaultAmount}
+        /> 
       : <div>Just a minute! Formatting takes a while ...</div>;
     return (
       <AppProvider>

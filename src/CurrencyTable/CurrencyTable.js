@@ -13,9 +13,10 @@ class CurrencyTable extends Component {
     autoBind(this);
 
     const maxCols = props.locales.length;
-    const maxRows = props.currencies.length
+    const maxRows = props.currencies.length;
 
     this.state = {
+      amount: props.amount,
       formattedValues: this.formatAll(),
       showFields: Array(maxRows).fill(Array(maxCols).fill(true)),
       showColumns: Array(maxCols).fill(maxRows),
@@ -27,13 +28,16 @@ class CurrencyTable extends Component {
   }
 
   formatAll() {
-    const {currencies} = this.props;
+    console.log('%cDebug: %s', 'color: green', 'formatAll()');      // TEMP ..
+    const {currencies} = this.props;;
     const rows = currencies.map(this.formatRow);
     return rows;
   }
 
   formatRow(currency) {
-    const {locales, amount} = this.props;
+    const {locales} = this.props;
+    const {amount} = (this.state) ? this.state : this.props;
+    console.log('%cDebug: %o %s', 'color: green', amount, 'formatRow amount');      // TEMP ..
     const rowItems = locales.map((locale) => ({
         currency: currency.code,
         locale: locale,
@@ -43,8 +47,17 @@ class CurrencyTable extends Component {
     return rowItems;
   }
 
-  filter(show) {
-    const {currencies, locales, amount} = this.props;
+  filter(show, searchString, newAmount) {
+    const {currencies, locales} = this.props;
+    
+    if (newAmount !== this.state.amount) {
+      console.log('%cDebug: %o %s', 'color: green', newAmount, 'newAmount received by filter()');      // TEMP ..
+      this.setState({amount: newAmount, formattedValues: this.formatAll()});
+      return;
+    }
+
+    const searchTerm = new RegExp(searchString);
+    console.log('%cDebug: %o %s', 'color: green', searchTerm, 'searchTerm');      // TEMP ..
     
     const showFields = [];
     // const showFields = Array(currencies.length).fill(Array(locales.length).fill(false));  // REMEMBER  NOT WORKING! probably takes too long and gets confused when you start writing to it before finished ...
@@ -53,15 +66,7 @@ class CurrencyTable extends Component {
     let numFields = 0;
     let numRows = 0;
     let numColumns = 0;
-    const westernNumerals = /\d/g;
-    const decimalPoint = /[.]/g;
-    const decimalComma = /[,]/g;
-    const weirdDecimalSign = /\u{2396}/g; // not in use
-    const weirdDecimalSign2 = /\u{066B}/g;  // not in use
-    const decimals = new RegExp(`${amount.toString().split('.')[1]}`);  // TODO:  set up at top
-    const decimalPointOrComma = new RegExp(`[,.]`);
-    const dollar = /\$/g;
-    const euro = /€/g;
+
     for (let i = 0; i < currencies.length; i++) {
       const showFieldsInRow = Array(locales.length).fill(false);
       //  TODO:  add row condition (only for decimal related filters):
@@ -69,7 +74,7 @@ class CurrencyTable extends Component {
       
       for (let j = 0; j < locales.length; j++) {
         const value = this.state.formattedValues[i][j].value;
-        const filterResult = value.search(euro) > -1;
+        const filterResult = value.search(searchTerm) > -1;
         // const filterResult = value.search(decimals) > -1;
         // const filterResult = ((j === 119) || (j === 120)) ;
         //       this.state.formattedValues[i][j].value.indexOf(',') >  -1 || .indexOf('10') > -1);
@@ -202,7 +207,7 @@ class CurrencyTable extends Component {
 
     return (
       <div>
-        <FilterPane onSubmit={this.filter} />
+        <FilterPane amount={this.state.amount} onSubmit={this.filter} />
         <div>
           {
             `Showing ${this.state.numRows} of ${currencies.length} currencies, 
