@@ -56,7 +56,7 @@ class CurrencyTable extends Component {
       return;
     }
 
-    const searchTerm = new RegExp(searchString);
+    const searchTerm = new RegExp(searchString, 'u');
     console.log('%cDebug: %o %s', 'color: green', searchTerm, 'searchTerm');      // TEMP ..
     
     const showFields = [];
