@@ -27,7 +27,7 @@ class App extends Component {
   }
 
   render() {
-    const defaultAmount = 123456.90
+    const defaultAmount = 1234.90
     const currencyTable = (this.state.currencies.length !== 0) 
       ? <CurrencyTable 
           currencies={this.state.currencies} 
